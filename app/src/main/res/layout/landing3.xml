@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".landing3"
+    android:background="@color/colorPrimary">
+
+
+
+    <TextView
+        android:id="@+id/txt_Pertama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pertama"
+        android:fontFamily="@font/cabin"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="78dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <android.widget.Button
+        android:id="@+id/btn_login"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:width="288dp"
+        android:height="44dp"
+        android:layout_marginTop="161dp"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:fontFamily="@font/cabin_semibolditalic"
+        android:textColor="@color/btnTextColor"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/txt_Pertama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <android.widget.TextView
+        android:id="@+id/atau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:fontFamily="@font/cabin_semibolditalic"
+        android:text="@string/atau"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_login" />
+
+    <ImageView
+        android:contentDescription="dotted line"
+        android:layout_height="5dp"
+        android:layout_width="117.5dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_login"
+        app:layout_constraintStart_toEndOf="@id/atau"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/dotted_line" />
+
+    <ImageView
+        android:contentDescription="dotted line"
+        android:layout_height="5dp"
+        android:layout_width="117.5dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_login"
+        app:layout_constraintEnd_toStartOf="@id/atau"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/dotted_line" />
+
+    <android.widget.Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:width="288dp"
+        android:height="44dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/register"
+        android:textAllCaps="false"
+        android:fontFamily="@font/cabin_semibolditalic"
+        android:textColor="@color/btnTextColor"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/atau"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

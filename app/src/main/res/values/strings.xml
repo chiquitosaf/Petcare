@@ -8,4 +8,8 @@
     <string name="petcare">petCARE!</string>
     <string name="deskripsipetcare">adalah aplikasi all in one untuk keperluan dan kebutuhan peliharan anda</string>
     <string name="makanan_grooming_ada">Makanan, grooming, ada!</string>
+    <string name="register">Register</string>
+    <string name="atau">Atau</string>
+    <string name="pertama">Pertama, kenalan dulu yuk…</string>
+    <string name="login">Login</string>
 </resources>
