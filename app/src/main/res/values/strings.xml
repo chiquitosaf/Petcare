@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tired</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="halo_teman">Halo teman!</string>
+    <string name="bingung">Bingung nyari tempat kebutuhan anabul tersayang?</string>
+    <string name="disini_tempatnya">Disini tempatnya!</string>
+    <string name="next">Next</string>
+    <string name="petcare">petCARE!</string>
+    <string name="deskripsipetcare">adalah aplikasi all in one untuk keperluan dan kebutuhan peliharan anda</string>
+    <string name="makanan_grooming_ada">Makanan, grooming, ada!</string>
+</resources>
