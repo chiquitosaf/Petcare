@@ -7,8 +7,6 @@
     tools:context=".landing3"
     android:background="@color/colorPrimary">
 
-
-
     <TextView
         android:id="@+id/txt_Pertama"
         android:layout_width="match_parent"
@@ -92,9 +90,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />
-
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

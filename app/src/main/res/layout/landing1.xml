@@ -53,11 +53,12 @@
         app:layout_constraintTop_toBottomOf="@+id/txt_Bingung" />
 
     <android.widget.Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
-        android:height="44dp"
         android:width="288dp"
+        android:height="44dp"
         android:background="@drawable/rounded_corner"
         android:fontFamily="@font/cabin_semibolditalic"
         android:text="@string/next"
@@ -66,7 +67,7 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
