@@ -62,6 +62,7 @@
         android:background="@drawable/rounded_corner"
         android:fontFamily="@font/cabin_semibolditalic"
         android:text="@string/next"
+        android:textAllCaps="false"
         android:textAlignment="center"
         android:textColor="@color/btnTextColor"
         android:textSize="16sp"
