@@ -15,4 +15,16 @@
     <string name="selamat_datang">Selamat datang kembali teman!</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="login2">Login!</string>
+    <string name="selamat_datang_teman_baru">Selamat datang, teman baru!</string>
+    <string name="email">Email</string>
+    <string name="ulang_password">Ulang Password</string>
+    <string name="pass_hint">min. 8 karakter</string>
+    <string name="hint_username">Masukkan usernamemu!</string>
+    <string name="nama_awal">Nama Awal</string>
+    <string name="nama_akhir">Nama Akhir</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="btn_register">Daftar Sekarang!</string>
+    <string name="daftar">Daftar</string>
+    <string name="masuk">Masuk</string>
 </resources>
